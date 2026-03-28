@@ -306,17 +306,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Created as part of Python Developer Intern application
 
 ---
-
-## 📧 Contact
-
-For questions or feedback about this submission:
-- **Application:** Python Developer Intern @ Anything.ai
-- **Submitted to:** joydip@anything.ai, chetan@anything.ai, hello@anything.ai
-
----
-
-**⚠️ Disclaimer:** This bot is for educational purposes and testnet use only. Never use testnet code with mainnet credentials.
-
----
-
-Made with ❤️ for learning and growth
