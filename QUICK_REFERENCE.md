@@ -29,19 +29,19 @@ python cli.py price ETHUSDT
 ### MARKET Orders
 ```bash
 # BUY at market price
-python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
+python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.002
 
 # SELL at market price
-python cli.py place -s BTCUSDT -d SELL -t MARKET -q 0.001
+python cli.py place -s BTCUSDT -d SELL -t MARKET -q 0.002
 ```
 
 ### LIMIT Orders
 ```bash
 # BUY at specific price
-python cli.py place -s BTCUSDT -d BUY -t LIMIT -q 0.001 -p 93000
+python cli.py place -s BTCUSDT -d BUY -t LIMIT -q 0.002 -p 93000
 
 # SELL at specific price
-python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 96000
+python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.002 -p 96000
 ```
 
 ## CLI Options Reference
@@ -50,7 +50,7 @@ python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 96000
 -s, --symbol     Trading pair (e.g., BTCUSDT, ETHUSDT)
 -d, --side       BUY or SELL
 -t, --type       MARKET or LIMIT
--q, --quantity   Amount to trade (e.g., 0.001)
+-q, --quantity   Amount to trade (e.g., 0.002)
 -p, --price      Price for LIMIT orders (optional for MARKET)
 ```
 
@@ -63,8 +63,8 @@ python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 96000
 - `DOGEUSDT` - Dogecoin
 
 ## Typical Quantities (Testnet)
-- Bitcoin (BTC): 0.001 - 0.01
-- Ethereum (ETH): 0.01 - 0.1
+- Bitcoin (BTC): 0.002 - 0.02
+- Ethereum (ETH): 0.01 - 0.2
 - Others: Adjust based on price
 
 ## Log Files Location
