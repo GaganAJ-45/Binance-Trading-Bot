@@ -304,5 +304,3 @@ If you're still stuck:
 5. Verify all requirements in SUBMISSION_CHECKLIST.md
 
 ---
-
-**Remember:** This is a testnet environment, so don't worry about breaking anything. Experiment and learn! 🚀
