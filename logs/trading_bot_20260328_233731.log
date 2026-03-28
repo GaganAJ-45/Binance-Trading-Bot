@@ -1,0 +1,5 @@
+2026-03-28 23:37:31,989 - bot.logging_config - INFO - Logging initialized. Log file: logs\trading_bot_20260328_233731.log
+2026-03-28 23:37:33,652 - bot.client - INFO - Synchronized Binance server time. Offset set to 7556ms
+2026-03-28 23:37:33,653 - bot.client - INFO - Binance Testnet client initialized successfully
+2026-03-28 23:37:34,124 - bot.client - INFO - Connection test successful
+2026-03-28 23:37:34,331 - bot.client - INFO - Successfully retrieved account information

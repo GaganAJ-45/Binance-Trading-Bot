@@ -1,0 +1,19 @@
+2026-03-28 10:15:23,456 - bot.logging_config - INFO - Logging initialized. Log file: logs/trading_bot_20260328_101523.log
+2026-03-28 10:15:23,457 - __main__ - INFO - ============================================================
+2026-03-28 10:15:23,457 - __main__ - INFO - Starting order placement process
+2026-03-28 10:15:23,457 - __main__ - INFO - ============================================================
+2026-03-28 10:15:23,458 - bot.validators - INFO - Validating order parameters...
+2026-03-28 10:15:23,458 - bot.validators - INFO - Symbol validated: BTCUSDT
+2026-03-28 10:15:23,458 - bot.validators - INFO - Side validated: BUY
+2026-03-28 10:15:23,459 - bot.validators - INFO - Order type validated: MARKET
+2026-03-28 10:15:23,459 - bot.validators - INFO - Quantity validated: 0.001
+2026-03-28 10:15:23,459 - bot.validators - INFO - All parameters validated successfully
+2026-03-28 10:15:23,678 - bot.client - INFO - Binance Testnet client initialized successfully
+2026-03-28 10:15:24,123 - bot.client - INFO - Connection test successful
+2026-03-28 10:15:24,456 - bot.client - INFO - Current price for BTCUSDT: 94523.50
+2026-03-28 10:15:24,457 - bot.orders - INFO - OrderManager initialized
+2026-03-28 10:15:24,457 - bot.orders - INFO - Attempting to place MARKET order: BUY 0.001 BTCUSDT
+2026-03-28 10:15:24,458 - bot.orders - INFO - Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-28 10:15:24,892 - bot.orders - INFO - MARKET order placed successfully. Order ID: 12345678901
+2026-03-28 10:15:24,892 - bot.orders - INFO - Order response: {'orderId': 12345678901, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'testOrder123', 'price': '0', 'avgPrice': '94523.50', 'origQty': '0.001', 'executedQty': '0.001', 'cumQuote': '94.52350', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1711616124892}
+2026-03-28 10:15:24,893 - __main__ - INFO - Order placement completed successfully

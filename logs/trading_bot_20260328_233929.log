@@ -1,0 +1,20 @@
+2026-03-28 23:39:29,616 - bot.logging_config - INFO - Logging initialized. Log file: logs\trading_bot_20260328_233929.log
+2026-03-28 23:39:29,621 - __main__ - INFO - ============================================================
+2026-03-28 23:39:29,621 - __main__ - INFO - Starting order placement process
+2026-03-28 23:39:29,621 - __main__ - INFO - ============================================================
+2026-03-28 23:39:29,632 - bot.validators - INFO - Validating order parameters...
+2026-03-28 23:39:29,632 - bot.validators - INFO - Order type validated: MARKET
+2026-03-28 23:39:29,633 - bot.validators - INFO - Symbol validated: BTCUSDT
+2026-03-28 23:39:29,633 - bot.validators - INFO - Side validated: BUY
+2026-03-28 23:39:29,637 - bot.validators - INFO - Quantity validated: 0.002
+2026-03-28 23:39:29,637 - bot.validators - INFO - All parameters validated successfully
+2026-03-28 23:39:32,807 - bot.client - INFO - Synchronized Binance server time. Offset set to 7559ms
+2026-03-28 23:39:32,807 - bot.client - INFO - Binance Testnet client initialized successfully
+2026-03-28 23:39:33,229 - bot.client - INFO - Connection test successful
+2026-03-28 23:39:33,616 - bot.client - INFO - Current price for BTCUSDT: 66862.8
+2026-03-28 23:39:33,617 - bot.orders - INFO - OrderManager initialized
+2026-03-28 23:39:33,618 - bot.orders - INFO - Attempting to place MARKET order: BUY 0.002 BTCUSDT
+2026-03-28 23:39:33,618 - bot.orders - INFO - Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002}
+2026-03-28 23:39:33,759 - bot.orders - INFO - MARKET order placed successfully. Order ID: 13002679945
+2026-03-28 23:39:33,759 - bot.orders - INFO - Order response: {'orderId': 13002679945, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'hufTy8cUe20qvpw2zny2CH', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774721381317}
+2026-03-28 23:39:33,761 - __main__ - INFO - Order placement completed successfully

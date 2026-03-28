@@ -1,0 +1,21 @@
+2026-03-28 23:42:13,174 - bot.logging_config - INFO - Logging initialized. Log file: logs\trading_bot_20260328_234213.log
+2026-03-28 23:42:13,179 - __main__ - INFO - ============================================================
+2026-03-28 23:42:13,179 - __main__ - INFO - Starting order placement process
+2026-03-28 23:42:13,180 - __main__ - INFO - ============================================================
+2026-03-28 23:42:13,190 - bot.validators - INFO - Validating order parameters...
+2026-03-28 23:42:13,190 - bot.validators - INFO - Order type validated: LIMIT
+2026-03-28 23:42:13,190 - bot.validators - INFO - Symbol validated: BTCUSDT
+2026-03-28 23:42:13,190 - bot.validators - INFO - Side validated: SELL
+2026-03-28 23:42:13,194 - bot.validators - INFO - Quantity validated: 0.002
+2026-03-28 23:42:13,194 - bot.validators - INFO - Price validated: 95000.0
+2026-03-28 23:42:13,194 - bot.validators - INFO - All parameters validated successfully
+2026-03-28 23:42:16,840 - bot.client - INFO - Synchronized Binance server time. Offset set to 7446ms
+2026-03-28 23:42:16,840 - bot.client - INFO - Binance Testnet client initialized successfully
+2026-03-28 23:42:17,012 - bot.client - INFO - Connection test successful
+2026-03-28 23:42:17,423 - bot.client - INFO - Current price for BTCUSDT: 66887.1
+2026-03-28 23:42:17,425 - bot.orders - INFO - OrderManager initialized
+2026-03-28 23:42:17,425 - bot.orders - INFO - Attempting to place LIMIT order: SELL 0.002 BTCUSDT @ 95000.0
+2026-03-28 23:42:17,426 - bot.orders - INFO - Order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.002, 'price': 95000.0, 'timeInForce': 'GTC'}
+2026-03-28 23:42:17,839 - bot.orders - INFO - LIMIT order placed successfully. Order ID: 13002683721
+2026-03-28 23:42:17,840 - bot.orders - INFO - Order response: {'orderId': 13002683721, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'jPbMNlNTv6GKeWrB6dXKBr', 'price': '95000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774721545391}
+2026-03-28 23:42:17,843 - __main__ - INFO - Order placement completed successfully
