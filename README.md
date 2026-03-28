@@ -235,6 +235,7 @@ This project includes:
 ## 👨‍💻 Author
 
 Created as part of the Python Developer Intern assignment.
+**[Gagan A J]**
 
 ---
 
