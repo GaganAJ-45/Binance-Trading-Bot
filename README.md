@@ -84,12 +84,12 @@ python cli.py price BTCUSDT
 
 **Place a MARKET Order:**
 ```bash
-python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
+python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.002
 ```
 
 **Place a LIMIT Order:**
 ```bash
-python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 95000
+python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.002 -p 95000
 ```
 
 ### Command Options
@@ -118,12 +118,12 @@ Options:
 
 3. **Place a MARKET BUY order:**
    ```bash
-   python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
+   python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.002
    ```
    
 4. **Place a LIMIT SELL order:**
    ```bash
-   python cli.py place -s ETHUSDT -d SELL -t LIMIT -q 0.01 -p 3500
+   python cli.py place -s ETHUSDT -d SELL -t LIMIT -q 0.002 -p 3500
    ```
 
 ## 📊 Logging
@@ -160,7 +160,7 @@ Error handling covers:
 ### MARKET Order Test
 ```bash
 # BUY 0.001 BTC at market price
-python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
+python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.002
 ```
 
 **Expected log output:**
@@ -173,7 +173,7 @@ python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
 ### LIMIT Order Test
 ```bash
 # SELL 0.001 BTC at limit price 95000
-python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 95000
+python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.002 -p 95000
 ```
 
 **Expected log output:**
