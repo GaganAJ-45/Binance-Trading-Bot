@@ -73,8 +73,8 @@ Symbol:         BTCUSDT
 Side:           BUY
 Type:           MARKET
 Status:         FILLED
-Quantity:       0.001
-Executed Qty:   0.001
+Quantity:       0.002
+Executed Qty:   0.002
 Avg Price:      94523.50
 Time:           1711616124892
 ============================================================
@@ -146,12 +146,12 @@ python cli.py price BTCUSDT
 
 **Place MARKET Order:**
 ```bash
-python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
+python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.002
 ```
 
 **Place LIMIT Order:**
 ```bash
-python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 95000
+python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.002 -p 95000
 ```
 
 ### Command Options
@@ -168,10 +168,10 @@ python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 95000
 
 ```bash
 # Buy 0.001 BTC at market price
-python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
+python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.002
 
 # Sell 0.01 ETH at $3500
-python cli.py place -s ETHUSDT -d SELL -t LIMIT -q 0.01 -p 3500
+python cli.py place -s ETHUSDT -d SELL -t LIMIT -q 0.02 -p 3500
 
 # Check current BTC price
 python cli.py price BTCUSDT
@@ -254,10 +254,10 @@ Run the example log generation:
 
 ```bash
 # Test MARKET order
-python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.001
+python cli.py place -s BTCUSDT -d BUY -t MARKET -q 0.002
 
 # Test LIMIT order
-python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.001 -p 95000
+python cli.py place -s BTCUSDT -d SELL -t LIMIT -q 0.002 -p 95000
 
 # Check logs
 ls -l logs/
@@ -284,25 +284,5 @@ Logs include:
 | Insufficient balance | Get funds from testnet faucet |
 
 See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed solutions.
-
----
-
-## 🤝 Contributing
-
-This is a submission project for an internship application. However, suggestions and feedback are welcome!
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Built using [python-binance](https://github.com/sammchardy/python-binance)
-- CLI powered by [Click](https://click.palletsprojects.com/)
-- Created as part of Python Developer Intern application
 
 ---
