@@ -68,6 +68,8 @@ trading_bot/
    python cli.py test
    ```
 
+---
+
 ## 💻 Usage
 
 ### Basic Commands
