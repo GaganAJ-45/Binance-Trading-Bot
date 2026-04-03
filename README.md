@@ -127,7 +127,7 @@ Options:
    ```bash
    python cli.py place -s ETHUSDT -d SELL -t LIMIT -q 0.002 -p 3500
    ```
-
+---
 ## 📊 Logging
 
 All operations are logged to:
